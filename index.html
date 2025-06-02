@@ -18,10 +18,11 @@
                 <p><b>I have a spotify account</b></p> 
             </div>
         </div>
-        <form action="confirmation.html needs-validation" class="p-3 my-4" method="get" >
+        <form action="needs-validation" class="p-3 my-4" method="get" >
         <div class="row justify-content-md-center mb-4 g-3">
             <div class="col-md-4">
-                <label for="exampleInputEmail1" class="form-label fs-5"><b>Email address</b></label>
+                <div><p class="text-secondary text-end mb-0">* Required field</p></div>
+                <label for="exampleInputEmail1" class="form-label fs-5"><b>Email address *</b></label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                 <div class="valid-feedback">
                     Looks good!
@@ -30,7 +31,7 @@
         </div>
         <div class="row justify-content-md-center">
         <div class="col-md-4 mb-4">
-            <label for="exampleInputPassword1" class="form-label fs-5"><b>Password</b></label>
+            <label for="exampleInputPassword1" class="form-label fs-5"><b>Password *</b></label>
             <input type="password" class="form-control" id="exampleInputPassword1" required>
             <div id="exampleInputPassword1" class="form-text text-secondary">forgotten password ?</div>
         </div>
@@ -38,7 +39,7 @@
         <div class="row justify-content-md-center mb-4">
         <div class="col-md-4">
         <!-- Button trigger modal -->
-            <button type="button" class="btn color-button text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="submit" class="btn color-button text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Connexion
         </button>
         </div>
