@@ -1,0 +1,45 @@
+$primary: #1ED760;
+body {
+    background: linear-gradient(2deg,rgba(0, 0, 0, 1) 0%, rgba(41, 41, 41, 1) 100%);
+    background-repeat: no-repeat;
+    color: white;
+    height: auto;
+}
+.head-form img {
+    height: 12rem;
+    width: 20rem;
+}
+.container {
+    width: 53vw;
+    height: auto;
+    background-color: #121212;
+}
+.color-button {
+    background-color: $primary;
+}
+.width {
+    height: 100vh;
+}
+.centeeerr {
+    justify-items: center;
+}
+@media only screen and (max-width: 425px) {
+    body {
+        height: auto;
+        background: linear-gradient(2deg,rgba(0, 0, 0, 1) 0%, rgba(41, 41, 41, 1) 100%);
+        background-repeat: no-repeat;
+
+    .head-form img {
+        height: 10rem;
+        width: 28rem;
+    }        
+    .container {
+        width: 85vw;
+        height: auto;
+        background-color: #121212;
+    }
+    .allermarche {
+        height: max-content;
+    }
+  }
+}

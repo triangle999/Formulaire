@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Inscription</title>
+</head>
+<body>
+    <div class="container p-5 my-5 rounded-4">
+        <div class="d-flex flex-column head-form text-center">
+            <div class="">
+                <img src="img/logospotify.png" class="img-fluid" alt="logo-spotify">
+            </div>
+            <div class="display-5">
+                <p><b>Subscribe to listening for free</b></p> 
+            </div>
+        </div>
+    <form action="confirmation.html needs-validation" class="row g-3" method="get">
+        <div class="col-md-4">
+            <label for="fname" class="form-label">First Name</label>
+            <input type="fname" class="form-control" id="fname" placeholder="First name"  aria-describedby="fname" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="lname" class="form-label">Last Name</label>
+            <input type="lname" class="form-control" id="lname" placeholder="Last name" aria-describedby="lname" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text text-secondary">We'll never share your email with anyone else.</div>
+            <div class="invalid-feedback">
+                Please provide a valid email address.
+            </div>
+        </div>
+         <div class="col-md-3">
+            <label for="pnumber" class="form-label">Phone Number</label>
+            <input type="pnumber" class="form-control" id="pnumber" aria-describedby="pnumber" required>
+        </div>
+        <div class="">
+            <p>What do you prefer to comunicate ?</p>
+        <div class="form-check" required>
+            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1" checked>
+            <label class="form-check-label" for="radioDefault1">
+                SMS
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+            <label class="form-check-label" for="radioDefault1">
+                Email
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+            <label class="form-check-label" for="radioDefault1">
+                I don't want to
+            </label>
+        </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+            Please provide a valid city.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Bikini Bottom</option>
+            <option>Village de Konoha</option>
+            </select>
+            <div class="invalid-feedback">
+            Please select a valid state.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+            Please provide a valid zip.
+            </div>
+        </div>
+        <div class="">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" required>
+            <div id="exampleInputPassword1" class="form-text text-secondary">Must be 8-20 characters long.</div>
+        </div>
+        <div class="mb-2">
+            <label for="exampleInputPassword1" class="form-label">Password verification</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" required>
+        </div>
+        <div class="">
+            <p>How did you know this website ?</p>
+            <div class="form-check"> 
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    A friend
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Search engine
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Good question... i won't tell you
+                </label>
+            </div>
+        </div>
+        <div class="col-md-3">
+        <button type="submit" class="btn color-button mb-2">Sign in</button>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I read and understood</label>
+        </div>
+        </div>
+    </form>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

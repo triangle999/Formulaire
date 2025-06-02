@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(2deg, rgb(0, 0, 0) 0%, rgb(41, 41, 41) 100%);
+  background-repeat: no-repeat;
+  color: white;
+  height: auto;
+}
+
+.head-form img {
+  height: 12rem;
+  width: 20rem;
+}
+
+.container {
+  width: 53vw;
+  height: auto;
+  background-color: #121212;
+}
+
+.color-button {
+  background-color: #1ED760;
+}
+
+.width {
+  height: 100vh;
+}
+
+.centeeerr {
+  justify-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    height: auto;
+    background: linear-gradient(2deg, rgb(0, 0, 0) 0%, rgb(41, 41, 41) 100%);
+    background-repeat: no-repeat;
+  }
+  body .head-form img {
+    height: 10rem;
+    width: 28rem;
+  }
+  body .container {
+    width: 85vw;
+    height: auto;
+    background-color: #121212;
+  }
+  body .allermarche {
+    height: max-content;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
